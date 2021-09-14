@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.google.com/specimen/Karla');
+
+    .attribution { font-size: 11px; text-align: left; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: rgb(219, 219, 219);
+      font-family: 'Karla', sans-serif;
+    }
+
+    #box-principal{
+
+  
+      background-color: rgb(255, 255, 255);
+      width: 600px;
+      height: 450px;
+      margin: auto;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 1px 2px 5px rgb(95, 94, 94);
+      border-radius: 12px 12px;
+
+      
+      
+    }
+
+    #bp-sup{
+      height: 50%;
+  
+      padding-left: 30px;
+    }
+
+    #bp-sup h1{
+      font-size: 25px;
+      color: hsl(179, 62%, 43%);
+      margin: 30px 0 30px 0;
+      letter-spacing:0.03cm;
+    }
+
+    #bp-sup h2{
+      font-size: 20px;
+      color: hsl(71, 73%, 54%);
+      margin: 30px 0 30px 0;
+      letter-spacing:0.03cm;
+
+    }
+
+    #bp-sup p{
+      font-size: 17px;
+      color: rgb(146, 146, 146);
+      
+    }
+
+    #bp-inf{
+
+      height: 50%;
+      display: flex;
+      
+    }
+
+    .item{
+      width: 50%;
+      list-style: none;
+      padding: 25px;
+    
+
+    }
+
+    .esquerda{
+
+      color: white;
+      background-color: rgb(30, 165, 165);
+
+    }
+
+    #bp-inf h3{
+      font-size: 20px;
+      letter-spacing:0.03cm;
+    }
+
+    #preco{
+      margin-top: -25px;
+      margin-bottom: -25px;
+      display: flex;
+      align-items: center;
+    }
+
+    #preco h3{
+      font-size: 25px;
+    }
+
+    #preco p{
+      font-size: 13px;
+      margin-left: 10px;
+      color: rgba(255, 255, 255 0.3);
+    }
+
+    input{
+
+      width: 230px;
+      height: 45px;
+      background-color: hsl(71, 73%, 54%);
+      padding: 10px;
+      color: white;
+      font-weight: bolder;
+      border-color: hsl(71, 73%, 54%);;
+      border-radius: 7px;
+   
+    }
+
+    .direita p{
+      
+     font-size: 13px;
+  
+    }
+
+    .direita{
+
+      color: white;
+      background-color: rgb(27, 196, 196);
+
+    }
+
+    
+
+   
+  </style>
+</head>
+<body>
+
+  <div id="box-principal">
+    
+    <div id="bp-sup">
+      <h1>Join our community</h1>
+
+      <h2>30-day, hassle-free money back guarantee</h2>
+
+      <p>
+        Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+     
+      
+    </div>
+    
+    <div id="bp-inf">
+      <div class="item esquerda">
+
+        <h3>Monthly Subscription</h3>
+        
+        <div id="preco">
+          <h3>&dollar;29 </h3>
+          <p>per month</p>
+        </div>
+         
+  
+        <p>Full access for less than &dollar;1 a day</p>
+        
+        <input type="button" value="Sign Up">
+        
+  
+      </div>
+      
+      <div class="item direita">
+        
+        <h3>Why Us</h3>
+        
+        <p>Tutorials by industry experts<br/>
+          Peer &amp; expert code review<br/>
+          Coding exercises<br/>
+          Access to our GitHub repos<br/>
+          Community forum<br/>
+          Flashcard decks<br/>
+          New videos every week<br/>
+        </p>
+
+      </div>
+
+    </div>
+    
+  </div>
+  
+  
+  <footer>
+    <p class="attribution">
+      <!--Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Raí Maurício</a>.-->
+    </p>
+  </footer>
+</body>
+</html>
