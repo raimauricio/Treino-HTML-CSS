@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/************GERAL*******/
+*{
+
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+
+/************CABEÇALHO*******/
+header{
+
+    margin-top: 0;
+    width: 100%;
+    height: 70px;
+
+}
+
+header nav{
+
+    float: right;
+    width: 480px;
+    margin-right: 1%;
+    margin-top: 35px;
+
+}
+
+ul li{
+    
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+ul li#login{
+    
+    background-color: #D6000D;
+    color: #ffffff;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+
+header #logo{
+
+    padding-top: 32px;
+    color: #D6000D;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    display: inline-flex;
+    margin-left: 3%;
+
+}
+
+header #logo #ponto{
+    
+    color: black;
+    padding-left: 2px;
+}
+
+/************CONTEUDO*******/
+#conteudo{
+
+    border: #D6000D 1px solid;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+/************RODAPE*******/
+footer{
+
+    display: flex;
+    position: absolute;
+    background-color: black;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+
+}
+
+footer div{
+    padding: 50px;
+    padding-left: 20px;
+    text-align: left;
+    max-width: 200px;
+}
+
+footer h1{
+
+    font-style: italic;
+
+}
+
+footer p{
+
+    max-width: 200px;
+    text-align: start;
+    margin-top: 10px;
+}
+
+
+#sobre p{
+    width: 180px;
+}
+
+#redes-icones{
+
+    max-width: 45px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#redes-icones i{
+    color: #D6000D;
+    margin-left: 7px;
+}
