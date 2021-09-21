@@ -28,17 +28,21 @@ header{
 
 header nav{
 
+    
+    border: solid 1px red;
     float: right;
-    width: 480px;
+    width: 520px;
     margin-right: 1%;
     margin-top: 35px;
 
 }
 
 header ul li{
-    
+
+    font-size: 18px;
+    font-weight: normal;
+    border: solid 1px red;
     margin-bottom: 0px;
-    font-weight: bold;
     padding: 5px;
     margin-right: 10px;
     padding-left: 10px;
@@ -49,6 +53,7 @@ header ul li{
 ul li#login{
     
     background-color: #D6000D;
+    font-weight: bold;
     color: #ffffff;
     margin-left: 20px;
     padding-left: 50px;
