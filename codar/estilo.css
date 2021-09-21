@@ -75,7 +75,7 @@ header #logo #ponto{
 
     border: #D6000D 1px solid;
     max-width: 900px;
-    height: 1280px;
+    max-height: 1230px;
     margin: auto;
     margin-top: 100px;
 
@@ -129,6 +129,8 @@ section {
     max-width: 270px;
     border-radius: 6px;
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -140,8 +142,7 @@ section {
     color: #ffffff;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    
     
 }
 
@@ -208,7 +209,42 @@ section ul li{
     font-weight: normal;
     background-color: #e0e0e09f;
 
+}
 
+#sec4{
+
+    margin-bottom: 200px;
+
+}
+
+article {
+
+    background-color: #e0e0e09f;
+    border: 1px solid red;
+    max-width: 420px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+article img{
+
+    border: 1px solid blue;
+    max-width: 100px;
+    max-height: 70px;
+    margin-right: 20px;
+
+}
+
+article h1{
+
+    border: #D6000D solid 1px;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 20px;
 }
 
 /************RODAPE*******/
