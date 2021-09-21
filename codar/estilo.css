@@ -82,11 +82,14 @@ header #logo #ponto{
 }
 
 section {
+
+    border: #D6000D 1px solid;
     max-height: 320px;
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    
 }
 
 .sub-sec{
@@ -129,6 +132,12 @@ section {
     max-width: 270px;
 }
 
+#sec2 .sub-sec{
+
+    border: 1px solid red;
+    align-items: center;
+}
+
 section img{
 
     max-width: 400px;
@@ -137,10 +146,25 @@ section img{
     border: 1px solid red;
 }
 
+section ul{
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 1px solid red;
+    max-width: 400px;
+
+}
+
 
 section ul li{
 
-    list-style: url('assets/check-circle-solid.svg');
+    list-style: url('assets/check.png');
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 1px solid red;
+    max-width: 300px;
+
+    
 
 }
 
