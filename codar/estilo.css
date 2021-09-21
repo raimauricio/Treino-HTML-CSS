@@ -87,9 +87,14 @@ section {
     max-height: 320px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    margin-bottom: 100px;
+    border: 1px solid red;   
     
+}
+
+#sec1, #sec3{
+
+    margin-bottom: 100px;
+
 }
 
 .sub-sec{
@@ -117,19 +122,27 @@ section {
     margin-bottom: 40px;
 }
 
-#sec1 .sub-sec input{
+.sub-sec input{
 
-    background-color: #D6000D;
     border: none;
     font-size: 18px;
+    max-width: 270px;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+
+
+.sub-sec input[type=button]{
+
+    background-color: #D6000D;
     color: #ffffff;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 7px;
     padding-bottom: 7px;
-    border-radius: 6px;
-    font-weight: bold;
-    max-width: 270px;
+    
 }
 
 #sec2 .sub-sec{
@@ -144,11 +157,13 @@ section img{
     margin-right: 2%;
     margin-left: 2%;
     border: 1px solid red;
+
 }
 
 section ul{
+
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 25px;
     border: 1px solid red;
     max-width: 400px;
 
@@ -164,7 +179,35 @@ section ul li{
     border: 1px solid red;
     max-width: 300px;
 
-    
+}
+
+
+#sec3{
+
+    flex-direction: column;
+    padding: 15px;
+}
+
+#sec3 h3{
+
+    border: red 1px solid;
+    margin-bottom: 10px;
+
+}
+
+#sec3 .sub-sec{
+
+    border: #D6000D solid 1px;
+}
+
+#sec3 .sub-sec input[type=text]{
+
+    margin-right: 10px;
+    margin-left: 2px;
+    padding-left: 10px;
+    font-weight: normal;
+    background-color: #e0e0e09f;
+
 
 }
 
